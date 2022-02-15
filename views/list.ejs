@@ -11,8 +11,14 @@
         <li>Buy food</li>
         <li>Cook</li>
         <li>Have dinner</li>
-        <li><%= newListItem %></li>
+        <!-- <li><%= newListItems %></li> -->
+        <% for(var i = 0; i < newListItems.length; i++){ %>
+            <li><%= newListItems[i] %></li>
+        <%}%>
         
+        <!-- <% for(var i = 0; i < newListItems.legth; i++){ %> -->
+            <!-- <li><%= newListItems[i] %></li> -->
+        <!-- <%}%> -->
     </ul>
 
     <form action="" action="/" method="post">
