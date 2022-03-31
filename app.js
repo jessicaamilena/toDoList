@@ -82,9 +82,6 @@ app.get("/:customListName", function(req, res){
       }
     }
   });
-
-
-
 });
 
 app.post("/", function(req, res){
@@ -126,8 +123,6 @@ app.post("/delete", function(req, res){
       }
     });
   }
-
-
 });
 
 app.get("/about", function(req, res){
